@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(216, 215, 213);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+           /* padding: 20px;*/
+        }
+        .navcon2{
+            color: red;
+        }
+        .navcon3 li{
+            display: inline;
+        }
+        .brandtext{
+            padding: 20px;
+        }
+        .brandtext > h3{
+            font-size: 40px;
+            color: rgb(140, 139, 139);
+
+        }
+        .brandtext > h1{
+            font-size: 200px;
+            padding-left: 14%;
+            word-spacing: 100px;
+            color: red;
+        }
+        .play :nth-child(2){
+            color: red;
+
+        }
+        .play{
+            margin-left: 20%;
+        }
+        h2{
+            font-size: 80px;
+        }
+        .text1{
+            animation: text1animation 3s 0ms 1;
+        }
+        @keyframes text1animation {
+            from{
+
+            }
+            to{
+                transform: translateX(100px);
+            }
+            
+        }
+        .text2{
+            margin-left: 5%;
+            margin-top: 2%;
+        }
+        .text3{
+            margin-left: 5%;
+            margin-top: 4%;
+        }
+        .text3 :nth-child(2){
+            color:  rgb(94, 93, 93);
+        }
+        .text3 :nth-child(3){
+            color: rgb(140, 139, 139);
+
+
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .maintext{
+            margin-left: 15%;
+        }
+        .img{
+            margin-right: 15%;
+            position: absolute;
+            
+            left: 55%;
+            bottom: -15%;
+
+        }
+        .img > img{
+            width: 500px;
+        }
+        h1{
+            animation-name: h1Kaanimation;
+            
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-delay: 0ms;
+            
+        
+        }
+        @keyframes h1Kaanimation {
+            from{
+                transform: scale(2);
+            }
+            to{
+                transform: scale(1);
+            }
+            
+        }
+        h3{
+            animation-name: h3Kaanimation;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-delay: 0ms;
+            
+
+        }
+        @keyframes h3Kaanimation {
+                from{
+                    
+                }
+                to{
+                    transform: translateX(400px);
+                }
+                
+        }
+        .play{
+            animation: playanimation 3s 0ms 1;
+        }
+        @keyframes playanimation {
+            from{
+
+            }
+            to{
+                transform: translateX(200px);
+            }
+            
+        }
+        p{
+            animation: panimation 3s 0ms 1;
+        }
+        @keyframes panimation {
+            from{
+
+            }
+            to{
+                transform: translateX(200px);
+            }
+            
+        }
+        nav{
+            animation: navanimation 5s 0ms 1;
+            animation-delay: 0s;
+
+        }
+        @keyframes navanimation {
+            from{
+                transform: translateY(-30px);
+            }
+            to{
+                transform: translateY(0px);
+
+            }
+            
+        }
+        .subscribe{
+            position: absolute;
+            left:82%;
+            bottom:10%;
+            
+        }
+        .subscribe > h6{
+            font-size: 20px;
+            color: red;
+            text-decoration: underline;
+            
+        }
+        .ver{
+            transform: rotate(-90deg);
+            position: absolute;
+            bottom: 30%;
+        }
+        h6{
+            font-size: 20px;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navcon1">FOR COLLABORATIONS</div>
+            <div class="navcon2">CONTENT UNIVERSE</div>
+            <div class="navcon3">
+                <li><img src="https://www.svgrepo.com/show/433146/segment.svg" width="10px" alt=""></li>
+                <li>MENU</li>
+            </div>
+        </nav>
+    </header>
+ 
+    <div class="brandtext">
+        <h3>We are a content creation team<br> and we are going to make SOME<br>cool stuff for your</h3>
+        <h1>B     R     A     N     D</h1>
+    </div>
+   
+   <main>
+        <div class="maintext">
+            <div class="play">
+                <img src="play-button-28255.png" width="30px
+                " alt="">
+                <p>PLAY VIDEO</p>
+                <P>ABOUT US</P>
+            </div>
+            <div class="text">
+                <div class="text1">
+                    <h2><b>MARKETING<br> STRATEGY</b></h2>
+                </div>
+                <div class="text2">
+                <p><b>Our content marketing strategists<br> take a scientific approach to content<br> campaigns, using hard data to craft the<br> perfect strategy for any client's<br> goals</b></p>
+                </div>
+                <div class="text3">
+                    <p><b>CONTENT CREATION</b></p>
+                    <P><b>SOCIAL AND PAID</b></P>
+                    <P><b>WEBSITE DESIGN</b></P>
+                </div>
+                
+            </div>
+        </div>
+        <div class="img">
+            <img src="https://1.bp.blogspot.com/-BIRxq2vxUXc/XR-vpnqbLXI/AAAAAAAAICU/Hv_8px4MiR8nTd4MZzoPknwz-5667BLwACLcBGAs/s1600/hair-bracelet-beautiful-beauty-157940.jpeg" alt="">
+        </div>
+    </main>
+    <div class="subscribe"><h6>subscribe for our news/events</h6></div>
+    <div class="ver"><h6>SCROLL FOR ALL SERVICES</h6></div>
+
+</body>
+</html>
